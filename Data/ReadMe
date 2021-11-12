@@ -11,7 +11,7 @@ Processed_Clean_S19S_Water_Field_sediments_9-29_Data.csv.zip
 Processed_Clean_S19S_Water_Field_sediments_9-29_Mol.csv.zip
 
 **Description** : FTICR-MS data from S19S Surface Water and Sediments. Samples and peaks are included in the Data file, OM properties are included in the mol file. 
-These files contain information for all the peaks idetified in a sample, even if the peaks did not have molecular formula attached. This dataset is optimal for transformation analysis and exploration of replicates. 
+These files contain information for all the peaks idetified in a sample, even if the peaks did not have molecular formula assigned. This dataset is optimal for transformation analysis and exploration of replicates. 
 
 ####################### Dataset 2 #########################
 Processed_S19S_Sediments_Water_2-2_newcode.csv.zip
