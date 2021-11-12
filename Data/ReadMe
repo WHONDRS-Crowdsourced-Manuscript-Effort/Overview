@@ -1,12 +1,20 @@
 
-readme_WHONDRS_FTICR_data
+## readme_WHONDRS_FTICR_data
 
 Surface water and sediment data from 97 global river corridors were part of a WHONDRS (https://whondrs.pnnl.gov) study. The raw, unprocessed FTICR-MS data and additional data collected from each site can be found at doi:10.15485/1729719, for sediments and doi:10.15485/1603775, for water. Additional metadata for these samples can be obtained using the dois given for sediment and surface water. 
 
-File Descriptions:
+## File Descriptions:
 
+################### Dataset 1 #########################
 Processed_Clean_S19S_Water_Field_sediments_9-29_Data.csv.zip
 
 Processed_Clean_S19S_Water_Field_sediments_9-29_Mol.csv.zip
 
+**Description** : FTICR-MS data from S19S Surface Water and Sediments. Samples and peaks are included in the Data file, OM properties are included in the mol file. 
+These files contain information for all the peaks idetified in a sample, even if the peaks did not have molecular formula attached. This dataset is optimal for transformation analysis and exploration of replicates. 
+
+####################### Dataset 2 #########################
 Processed_S19S_Sediments_Water_2-2_newcode.csv.zip
+
+**Description**: FTICR-MS data from S19S Surface Water and Sediments. Mol and Data files have been merged by the Mass column. This file contains only peaks with molecular formula assigned. 
+This dataset is optimal if analyzing thermodynamic properties (e.g., Gibbs and Lambda) in each sample without merging replicates. In this dataset we also excluded lambda values that are considered outliers as per Song et al., 2020. 
